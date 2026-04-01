@@ -4,8 +4,8 @@ This repository contains my solution for Task 1, focusing on version control sys
 
 ## Repository Structure
 * *task-1/*: Contains the source code and documentation.
-  * assignment.cpp: Main solution file.
-  * namespace.cpp: Secondary solution file demonstrating namespaces.
+  * assignment.cpp
+  * namespace.cpp
   * README.md: Documentation and assignment answers.
 
 ---
