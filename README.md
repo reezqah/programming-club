@@ -25,11 +25,3 @@ Since the CPU has a maximum addressable width of 2 bytes, and 1 byte equals 8 bi
 
 *B. Explanation:* This output occurs due to *integer underflow* (or wrap-around). Because the variable x is an unsigned int, it cannot store negative numbers. When we calculate $0 - 1$, the binary representation "wraps around" from all zeros to all ones, resulting in the maximum value possible for a 32-bit unsigned integer ($2^{32} - 1$).
 
----
-
-## ⚙️ How to Compile and Run
-To run the code files in this folder, use a C++ compiler (like g++):
-
-```bash
-g++ assignment.cpp -o assignment
-./assignment
