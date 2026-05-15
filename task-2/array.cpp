@@ -13,15 +13,6 @@ int main()
         cout << arr[i] << endl;
     }
 
-    // 2. For-each loop 
-    cout << "Using for-each loop:" << endl;
-    for (int value : arr)
-    {
-        cout << value << endl;
-    }
-
-    return 0;
-}
 
 
 
